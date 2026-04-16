@@ -1,7 +1,0 @@
-//  Browser sends request
-//  Express server receives it
-//  Server returns an HTML page
-//  browser loads CSS, JS, images
-//  user submits a form
-//  server receives form data
-//  server processes and sends email to us
