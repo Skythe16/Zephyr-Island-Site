@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Zephyr Island Contact</title>
+      <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+    <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="/">
+          <img src="/images/clean-logo.png" alt="Zephyr Island Logo" class="logo-img">
+          Zephyr Island
+        </a>
+      </div>
+
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/media">Media</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+
+      </nav>
+    </div>
+  </header>
+
+    <main>   
+        <h1>Contact us!</h1> 
+      <section class="contact-section">
+        <div class="contact-card">
+          <h1>Book Zephyr Island</h1>
+          <p class="contact-intro">
+          Tell us about your event and we’ll get back to you.
+          </p>
+
+          <form class="contact-form" action="/contact" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="eventDate">Event Date</label>
+            <input id="eventDate" name="eventDate" type="date">
+
+            <label for="venue">Venue / Location</label>
+            <input id="venue" name="venue" type="text">
+
+            <label for="message">Event Details</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <input type="text" name="company" tabindex="-1" autocomplete="off" style="display:none">
+
+            <button type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
